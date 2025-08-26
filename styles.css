@@ -6,7 +6,6 @@
 }
 
 body {
-  overflow: hidden;
   font-family: "Source Sans 3", sans-serif;
 }
 
@@ -233,7 +232,7 @@ body {
   font-family: "Source Sans 3", sans-serif;
   font-weight: 400;
   font-size: 20px;
-  line-height: 0.9;
+  line-height: 1;
   letter-spacing: 0;
   color: #FFFFFF;
   border-radius: 2px;
@@ -246,6 +245,10 @@ body {
   background-color: #0d5bc0;
   box-shadow: 0 4px 12px rgba(27, 112, 241, 0.3);
 }
+.one-page__arrow-top {
+  width: 18px;
+  height: 18px;
+}
 .one-page__button-2 {
   width: 200px;
   height: 56px;
@@ -255,7 +258,7 @@ body {
   font-family: "Source Sans 3", sans-serif;
   font-weight: 400;
   font-size: 20px;
-  line-height: 0.9;
+  line-height: 1;
   letter-spacing: 0;
   color: #FFFFFF;
   cursor: pointer;
@@ -267,6 +270,42 @@ body {
   transform: scale(1.05);
   background-color: #FFFFFF;
   color: #808A9A;
+}
+.one-page__container-btc-inr {
+  display: block;
+  padding: 150px 0px;
+  position: relative;
+}
+.one-page__container-btc-inr::after {
+  content: "";
+  position: absolute;
+  height: 40px;
+  left: 200px;
+  top: 48%;
+  transform: translateY(-50%);
+  width: 1px;
+  background-color: #1E1F25;
+}
+.one-page__container-btc-inr-1 {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.one-page__btctitle {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ADB3BF;
+}
+.one-page__arrow-up {
+  width: 62px;
+  height: 20px;
+}
+.one-page__btc-inr-text-2 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 3.2;
+  letter-spacing: 0;
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=styles.css.map */
