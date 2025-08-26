@@ -11,7 +11,7 @@ body {
 }
 
 @mixin style-text-header {
-    font-family: 'Source Sans 3', sans-serif;
+        font-family: 'Source Sans 3', sans-serif;
     font-weight: 400;
     font-size: 18px;
     letter-spacing: 0;
@@ -191,7 +191,7 @@ body {
 
     &__container-laptop {
         position: absolute;
-        top: 50%;
+        top: 40%;
         left: 50%;
         transform: translate(-50%, -50%);
         z-index: 2;
@@ -203,4 +203,38 @@ body {
         width: 837px;
         height: 837px;
     }
+
+    &__container-left {
+        max-width: 1920px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 100px 150px;
+
+    }
+    &__container-title-blue {
+        margin-bottom: 20px;
+    }
+    &__title-blue {
+        font-family: 'Source Sans 3', sans-serif;
+        font-weight: 600;   
+        font-style: 'SemiBold';
+        font-size: 24px;
+        line-height: 3.6px;
+        letter-spacing: 0px;
+        color: #1B70F1;
+    }
+
+    &__container-title {
+        padding-bottom: 20px;
+    }
+
+    &__title {
+        font-family: 'Source Sans 3', sans-serif;
+        font-weight: 700;
+        font-size: 96px;
+        line-height: 1.0;
+        letter-spacing: -1.5px;
+        color: #FFFFFF;
+    }
+
 }
