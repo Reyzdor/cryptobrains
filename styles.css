@@ -130,10 +130,40 @@ body {
   width: 100%;
   height: 1080px;
   background-color: #131517;
+  position: relative;
 }
-.one-page__container__container-right {
-  padding: 150px 0px;
+.one-page__inner {
+  position: relative;
+  height: 100%;
+}
+.one-page__container-right {
+  position: absolute;
   right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 100px 50px;
+}
+.one-page__container-elipse {
+  position: relative;
+  z-index: 1;
+}
+.one-page__elipse {
+  display: block;
+  width: 777px;
+  height: 777px;
+}
+.one-page__container-laptop {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+.one-page__laptop {
+  display: block;
+  position: relative;
+  width: 837px;
+  height: 837px;
 }
 
 /*# sourceMappingURL=styles.css.map */
