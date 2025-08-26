@@ -324,54 +324,51 @@ body {
         }
     }
 
-    @mixin style-btn-inr {
+   
+            &__container-btc-inr {
+                display: block;
+                padding: 150px 0px;
+                position: relative;
         
-    }
-    &__container-btc-inr {
-        display: block;
-        padding: 150px 0px;
-        position: relative;
-
-        &::after {
-            content: "";
-            position: absolute;
-            height: 40px;
-            left: 200px; 
-            top: 48%;
-            transform: translateY(-50%);
-            width: 1px;
-            background-color: #1E1F25;
+                &::after {
+                    content: "";
+                    position: absolute;
+                    height: 40px;
+                    left: 200px; 
+                    top: 48%;
+                    transform: translateY(-50%);
+                    width: 1px;
+                    background-color: #1E1F25;
+                }
+            }
+        
+            &__container-btc-inr-1 {
+                display: flex;
+                gap: 30px;
+                align-items: center;
+            }
+        
+            &__btctitle {
+                font-weight: 400;
+                font-size: 16px;
+                color: #ADB3BF;
+            }
+        
+            &__arrow-up {
+                width: 62px;
+                height: 20px;
+            }
+        
+            &__btc-inr-2 {
+                
+            }
+        
+            &__btc-inr-text-2 {
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 3.2;
+                letter-spacing: 0;
+                color: #FFFFFF;
+        
+            }
         }
-    }
-
-    &__container-btc-inr-1 {
-        display: flex;
-        gap: 30px;
-        align-items: center;
-    }
-
-    &__btctitle {
-        font-weight: 400;
-        font-size: 16px;
-        color: #ADB3BF;
-    }
-
-    &__arrow-up {
-        width: 62px;
-        height: 20px;
-    }
-
-    &__btc-inr-2 {
-        
-    }
-
-    &__btc-inr-text-2 {
-        font-weight: 600;
-        font-size: 20px;
-        line-height: 3.2;
-        letter-spacing: 0;
-        color: #FFFFFF;
-
-    }
-
-}
