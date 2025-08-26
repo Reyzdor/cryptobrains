@@ -209,7 +209,7 @@ body {
   color: #FFFFFF;
 }
 .one-page__container-small-text {
-  padding-bottom: 10px;
+  padding-bottom: 100px;
 }
 .one-page__small-text {
   font-weight: 400;
@@ -221,6 +221,52 @@ body {
 .one-page__container-line {
   padding-left: 210px;
   padding-bottom: 10px;
+}
+.one-page__container-buttons {
+  display: flex;
+  gap: 30px;
+}
+.one-page__button-1 {
+  width: 200px;
+  height: 56px;
+  background-color: #1B70F1;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 0.9;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  border-radius: 2px;
+  border: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.one-page__button-1:hover {
+  transform: scale(1.05);
+  background-color: #0d5bc0;
+  box-shadow: 0 4px 12px rgba(27, 112, 241, 0.3);
+}
+.one-page__button-2 {
+  width: 200px;
+  height: 56px;
+  background-color: #131517;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 0.9;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+.one-page__button-2:hover {
+  transform: scale(1.05);
+  background-color: #FFFFFF;
+  color: #808A9A;
 }
 
 /*# sourceMappingURL=styles.css.map */
