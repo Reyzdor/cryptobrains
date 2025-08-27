@@ -271,12 +271,16 @@ body {
   background-color: #FFFFFF;
   color: #808A9A;
 }
-.one-page__container-btc-inr {
+.one-page__container-wrapper {
+  display: flex;
+  gap: 40px;
+}
+.one-page__container-btc-inr-2, .one-page__container-btc-inr-3, .one-page__container-btc-inr-4, .one-page__container-btc-inr-5, .one-page__container-btc-inr-6, .one-page__container-btc-inr-7, .one-page__container-btc-inr-8 {
   display: block;
-  padding: 150px 0px;
+  padding: 80px 0px;
   position: relative;
 }
-.one-page__container-btc-inr::after {
+.one-page__container-btc-inr-2::after, .one-page__container-btc-inr-3::after, .one-page__container-btc-inr-4::after, .one-page__container-btc-inr-5::after, .one-page__container-btc-inr-6::after, .one-page__container-btc-inr-7::after, .one-page__container-btc-inr-8::after {
   content: "";
   position: absolute;
   height: 40px;
@@ -286,9 +290,9 @@ body {
   width: 1px;
   background-color: #1E1F25;
 }
-.one-page__container-btc-inr-1 {
+.one-page__container-btc-inr-2, .one-page__container-btc-inr-3, .one-page__container-btc-inr-4, .one-page__container-btc-inr-5, .one-page__container-btc-inr-6, .one-page__container-btc-inr-7, .one-page__container-btc-inr-8 {
   display: flex;
-  gap: 30px;
+  gap: 60px;
   align-items: center;
 }
 .one-page__btctitle {
@@ -300,7 +304,9 @@ body {
   width: 62px;
   height: 20px;
 }
-.one-page__btc-inr-text-2 {
+.one-page__btc-inr-text-22, .one-page__btc-inr-text-3, .one-page__btc-inr-text-4, .one-page__btc-inr-text-5, .one-page__btc-inr-text-6, .one-page__btc-inr-text-7, .one-page__btc-inr-text-8 {
+  position: relative;
+  top: -85px;
   font-weight: 600;
   font-size: 20px;
   line-height: 3.2;
