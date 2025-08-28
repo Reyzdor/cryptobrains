@@ -946,5 +946,21 @@ body {
             }
     }    
     
+     &__divider {
+        height: 1px;
+        background: linear-gradient(
+            90deg,
+            #FFFFFF0A,
+            #FFFFFF33,
+            #FFFFFF0A
+        );
+        margin: 0px auto;
+        border: none;
+        padding: 0 150px;
+        width: calc(100% - 300px);
+        max-width: 100%;
+        position: relative;
+        top: -180px;
+    }
 
 }
