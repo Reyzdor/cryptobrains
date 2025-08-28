@@ -807,7 +807,7 @@ body {
   text-align: center;
   margin-bottom: 30px;
   position: relative;
-  top: -250px;
+  top: -80px;
   z-index: 4;
 }
 .three-page__container-desc {
@@ -818,7 +818,7 @@ body {
   text-align: center;
   max-width: 1000px;
   position: relative;
-  top: -240px;
+  top: -50px;
   z-index: 4;
   line-height: 1.6;
   margin-left: -50px;
@@ -833,13 +833,22 @@ body {
 .three-page__divider {
   height: 1px;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.0392156863), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.0392156863));
-  margin: 0px auto;
+  margin: 40px auto;
   border: none;
   padding: 0 150px;
   width: calc(100% - 300px);
   max-width: 100%;
-  position: relative;
-  top: -180px;
+}
+.three-page__container-cards {
+  padding: 0px 100px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.three-page__card-1 {
+  width: 375px;
+  height: 414px;
+  background-color: #272A34;
 }
 
 /*# sourceMappingURL=styles.css.map */
