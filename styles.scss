@@ -485,7 +485,7 @@ body {
     &__container-cards {
         padding: 80px 150px;
         display: flex;
-        gap: 30px;
+        gap: 20px;
     }
 
     &__card1 {
@@ -655,7 +655,7 @@ body {
         @include style-card();
     }
 
-    &__ddgd {
+    &__dgd {
         width: 48px;
         height: 48px;
     }
@@ -744,4 +744,127 @@ body {
     &__container-graph-eth {
         @include container-graph-two-page();
     }
+
+    &__card5 {
+        @include style-card();
+    }
+
+    &__kmd {
+        width: 48px;
+        height: 48px;
+    }
+
+    &__kmd-title {
+        @include style-title-two-page();
+        padding: 0px 5px;
+    }
+
+    &__fall {
+        @include style-up-two-page();
+    }
+
+    &__kmd-price {
+        @include style-price-two-page();
+        padding: 0px 25px;
+    }
+
+    &__kmd-graph {
+        @include style-graph-two-page();
+    }
+
+    &__container-img-kmd {
+        @include container-logo-two-page();
+    }
+
+    &__container-title-kmd {
+        @include container-title-two-page();
+    }
+
+
+    &__container-up-kmd {
+        @include container-up-two-page();   
+    }
+
+    &__container-price-kmd {
+        @include container-price-two-page();
+    }
+
+    &__container-graph-kmd {
+        @include container-graph-two-page();
+    }
+
+    &__card6 {
+        @include style-card();
+    }
+
+    &__etp {
+        width: 48px;
+        height: 48px;
+    }
+
+    &__etp-title {
+        @include style-title-two-page();
+        padding: 0px 10px;
+    }
+
+    &__up {
+        @include style-up-two-page();
+    }
+
+    &__etp-price {
+        @include style-price-two-page();
+        padding-left: 30px;
+    }
+
+    &__etp-graph {
+        @include style-graph-two-page();
+    }
+
+    &__container-img-etp {
+        @include container-logo-two-page();
+    }
+
+    &__container-title-etp {
+        @include container-title-two-page();
+    }
+
+
+    &__container-up-etp {
+        @include container-up-two-page();   
+    }
+
+    &__container-price-etp {
+        @include container-price-two-page();
+    }
+
+    &__container-graph-etp {
+        @include container-graph-two-page();
+    }
+
+    &__container-button {
+        padding: 0px 820px;
+    }
+
+    &__buttonblue {
+        width: 200px;
+        height: 56px;
+        background-color: #1B70F1;
+        font-family: 'Source Sans 3', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.0;
+        letter-spacing: 0;
+        color: #FFFFFF;
+        border-radius: 2px;
+        border: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+            transform: scale(1.05);
+            background-color: #0d5bc0;
+            box-shadow: 0 4px 12px rgba(27, 112, 241, 0.3);
+        }
+    }
+    
 }
