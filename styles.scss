@@ -962,8 +962,41 @@ body {
         
     }
 
-    &__container-cards {
+    @mixin three-page-style-container-img {
+        padding: 50px 150px;
+        margin-bottom: 50px;
+    }
+
+    @mixin three-page-style-img {
+        width: 62px;
+        height: 62px;
+    }
+
+    @mixin three-page-style-container-title {
         padding: 0px 100px;
+    }
+
+    @mixin three-page-style-title {
+        font-weight: 600;
+        font-size: 24px;
+        letter-spacing: 0;
+        color: #FFFFFF;
+    }
+
+    @mixin three-page-style-container-desc {
+        padding: 0px 30px;
+        
+    }
+
+    @mixin three-page-style-desc {
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 0;
+        color: #ADB3BF;
+    }
+
+    &__container-cards {
+        padding: 0px 5  0px;
         display: flex;
         gap: 30px;
         justify-content: center ;
@@ -973,5 +1006,30 @@ body {
         width: 375px;
         height: 414px;
         background-color: #272A34;
+        border-radius: 10px;
+    }
+
+    &__container-img {
+        @include three-page-style-container-img();
+    }
+
+    &__img-1 {
+        @include three-page-style-img();
+    }
+
+    &__container-title {
+        @include three-page-style-container-title();
+    }
+
+    &__title {
+        @include three-page-style-title();
+    }
+
+    &__container-desc {
+        @include three-page-style-container-desc();
+    }
+
+    &__desc {
+        @include three-page-style-desc();
     }
 }

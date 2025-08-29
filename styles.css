@@ -840,7 +840,7 @@ body {
   max-width: 100%;
 }
 .three-page__container-cards {
-  padding: 0px 100px;
+  padding: 0px 5 0px;
   display: flex;
   gap: 30px;
   justify-content: center;
@@ -849,6 +849,33 @@ body {
   width: 375px;
   height: 414px;
   background-color: #272A34;
+  border-radius: 10px;
+}
+.three-page__container-img {
+  padding: 50px 150px;
+  margin-bottom: 50px;
+}
+.three-page__img-1 {
+  width: 62px;
+  height: 62px;
+}
+.three-page__container-title {
+  padding: 0px 100px;
+}
+.three-page__title {
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 0;
+  color: #FFFFFF;
+}
+.three-page__container-desc {
+  padding: 0px 30px;
+}
+.three-page__desc {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0;
+  color: #ADB3BF;
 }
 
 /*# sourceMappingURL=styles.css.map */
