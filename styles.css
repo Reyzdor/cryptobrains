@@ -860,7 +860,7 @@ body {
   height: 62px;
 }
 .three-page__container-title {
-  padding: 0px 100px;
+  padding: 20px 100px;
 }
 .three-page__title {
   font-weight: 600;
@@ -870,12 +870,16 @@ body {
 }
 .three-page__container-desc {
   padding: 0px 30px;
+  position: relative;
+  top: -5px;
 }
 .three-page__desc {
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0;
   color: #ADB3BF;
+  position: relative;
+  top: -90px;
 }
 
 /*# sourceMappingURL=styles.css.map */

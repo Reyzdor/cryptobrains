@@ -973,7 +973,7 @@ body {
     }
 
     @mixin three-page-style-container-title {
-        padding: 0px 100px;
+        padding: 20px 100px;
     }
 
     @mixin three-page-style-title {
@@ -1027,9 +1027,17 @@ body {
 
     &__container-desc {
         @include three-page-style-container-desc();
+        position: relative;
+        top: -5px;
     }
 
     &__desc {
         @include three-page-style-desc();
+        position: relative;
+        top: -90px;
+    }
+    
+    &__add-desc {
+
     }
 }
