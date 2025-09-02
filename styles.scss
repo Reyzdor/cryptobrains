@@ -1009,6 +1009,10 @@ body {
         border-radius: 10px;
     }
 
+    @mixin style-container-add {
+
+    }
+
     &__container-img {
         @include three-page-style-container-img();
     }
@@ -1036,8 +1040,16 @@ body {
         position: relative;
         top: -90px;
     }
+
+    &__container-add {
+        @include three-page-style-container-desc();
+        padding: 0px 130px;
+    }
     
     &__add-desc {
-
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 2.4;
+        color: #FFFFFF;
     }
 }
